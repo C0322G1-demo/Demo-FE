@@ -1,0 +1,16 @@
+<div class="container">
+  <table class="table table-bordered mt-2">
+    <thead>
+    <tr class="bg bg-primary text-light text-center">
+      <th>id</th>
+      <th>name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of customerList, index as i">
+      <td>{{i + 1}}</td>
+      <td>{{item.name}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
