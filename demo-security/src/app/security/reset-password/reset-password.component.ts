@@ -41,6 +41,7 @@ export class ResetPasswordComponent implements OnInit {
         this.isSubmited = false;
       }
     );
+    console.log('test git');
   }
 
   validationMessages = {
