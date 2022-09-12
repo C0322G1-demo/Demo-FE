@@ -59,6 +59,7 @@ export class VerityResetPasswordComponent implements OnInit {
         this.isSubmited = false;
       }
     }
+    console.log('demo');
     console.log('test git');
   }
 
