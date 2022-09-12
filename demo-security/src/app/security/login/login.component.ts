@@ -69,6 +69,7 @@ export class LoginComponent implements OnInit {
         extendedTimeOut: 1500
       });
     });
+login-management
 
   }
 }
